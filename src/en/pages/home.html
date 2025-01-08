@@ -1,6 +1,27 @@
 ---
 permalink: /
-title: Meow Meow
+title: Jari Virkki
 ---
 
 {% extends "layouts/base.html" %} 
+
+{% block content %}
+{% include "partials/site-head.html" %}
+<main tabindex="-1" id="main-content">
+    <div class="landing-screen wrapper">
+      <div class="landing-screen__left">
+      <article class="landing-screen__titles">
+        <h1>Title</h1>
+        <h2>Description</h2>
+        {{ content | safe }}
+        <p>test</p>
+      </article>
+      </div>
+      <div class="landing-screen__right">
+      <img class="landing-screen__portrait" src="../../images/content/landing-portrait.png" />
+      </div>
+    </div>
+    </main>
+{% include "partials/site-foot.html" %}
+
+{% endblock %}
