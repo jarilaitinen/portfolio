@@ -1,0 +1,12 @@
+{
+    "fi": {
+        "greeting": "Terve!",
+        "kpl1": "Olen Jenni Suutari, 24-vuotias politiikan tutkimuksen opiskelija sekä näkemyksellinen opiskelijavaikuttaja Jyväskylästä. Alun perin olen kotoisin Kokemäeltä, Satakunnasta. Kuluneena vuonna olen toiminut SYLin hallituksessa vastuualueinani koulutuspolitiikka ja kansainväliset asiat European Students’ Unionin kanssa tehtävän yhteistyön tiimoilta. Viime vuonna vastasin korkeakoulupolitiikasta JYYn hallituksen varapuheenjohtajana.",
+        "kpl2": "Olen järjestökentällä kuin kotonani, sillä olen toiminut jo vuosia erilaisissa luottamustoimissa ja johtotehtävissä. JYYn varapuheenjohtajuuden ohella olen johtanut Suomen suurinta poliittista nuorisojärjestöä varapuheenjohtajana ja puheenjohtajan sijaisena sekä tiiviimpiä projekteja, työryhmiä ja kampanjoita. Minua kuvaillaan usein sisukkaaksi, päämäärätietoiseksi ja sanavalmiiksi asiapentiksi. Osaan kuitenkin tehdä juttuja myös pilke silmäkulmassa kaikki mukaan innostaen."
+    },
+    "en": {
+        "greeting": "Hello!",
+        "kpl1": "I'm an independent full-stack developer from Tampere, Finland collaborating with clients and making things I’m interested in. I especially care about energy efficiency, accessibility, privacy and calm technology principles. I also have a background in audio technology and still take on freelance work as a live sound technician, recording technician and media consultant.",
+        "kpl2": "I can handle UX, UI, front end, back end, database management, devops, all the phases of the project except copy writing."
+    }
+}
