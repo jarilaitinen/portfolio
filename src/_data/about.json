@@ -1,12 +1,32 @@
 {
     "fi": {
         "greeting": "Terve!",
-        "kpl1": "Olen Jenni Suutari, 24-vuotias politiikan tutkimuksen opiskelija sekä näkemyksellinen opiskelijavaikuttaja Jyväskylästä. Alun perin olen kotoisin Kokemäeltä, Satakunnasta. Kuluneena vuonna olen toiminut SYLin hallituksessa vastuualueinani koulutuspolitiikka ja kansainväliset asiat European Students’ Unionin kanssa tehtävän yhteistyön tiimoilta. Viime vuonna vastasin korkeakoulupolitiikasta JYYn hallituksen varapuheenjohtajana.",
-        "kpl2": "Olen järjestökentällä kuin kotonani, sillä olen toiminut jo vuosia erilaisissa luottamustoimissa ja johtotehtävissä. JYYn varapuheenjohtajuuden ohella olen johtanut Suomen suurinta poliittista nuorisojärjestöä varapuheenjohtajana ja puheenjohtajan sijaisena sekä tiiviimpiä projekteja, työryhmiä ja kampanjoita. Minua kuvaillaan usein sisukkaaksi, päämäärätietoiseksi ja sanavalmiiksi asiapentiksi. Osaan kuitenkin tehdä juttuja myös pilke silmäkulmassa kaikki mukaan innostaen."
+        "kpl1": "Olen full-stack netti- ja sovelluskehittäjä Tampereelta. Rakennan nettipalveluita asiakkaiden sekä omiin tarpeisiini. Välitän erityisesti energiatehokkuudesta, saavutettavuudesta, yksityisyydestä ja calm technology-periaatteista. Minulla on myös äänialan työtaustaa ja teen freelance-työtä ääniteknikkona ja mediakonsulttina.",
+        "kpl2": "Minulla on kokemusta Wordpress-sivustojen ja -teemojen kehittämisestä, ja myös staattisten sivujen (kuten tämä). Rakennan nettisovelluksia pääaasiassa NodeJS:llä, usein TypeScriptilla ja MERN-stackilla, ja olen jonkin verran perehtynyt myös muihin kieliin ja frameworkeihin (kuten Java ja Googlen Apps Script). Olen monipuolisesti ottanut vastaan UX-, UI-, front end-, back end-, tietokanta- ja devops-tehtäviä, pystyn vaikka mihin paitsi hyvän mainostekstin kirjoittamiseen.",
+        "triviatitle": "Lisätietoa minusta",
+        "trivia": [
+            "Olen Tapahtuma- ja Mediarenessanssi ry:n puheenjohtaja ja tekninen konsultti - tarjoan tapahtuma- ja mediapalveluita ", 
+            "Olen aktiivinen politiikassa ja ympäristöaktivismissa, ja autan pyörittämään luontoaiheista keskustelufoorumia Tampereella",
+            "Olen myös pitänyt luentoja netti- ja tietoturvallisuudesta ja ympäristöfilosofiasta",
+            "Olen kahden erittäin tyhmän kissan ylpeä isähahmo",
+            "Tykkään junista ja olen käynyt usealla monen päivän junareissulla halki Eurooppaa",
+            "Olen sertifioitu lampaankeritsijä",
+            "Soitan selloa, pianoa ja sähkökitaraa"
+        ]
     },
     "en": {
         "greeting": "Hello!",
-        "kpl1": "I'm an independent full-stack developer from Tampere, Finland collaborating with clients and making things I’m interested in. I especially care about energy efficiency, accessibility, privacy and calm technology principles. I also have a background in audio technology and still take on freelance work as a live sound technician, recording technician and media consultant.",
-        "kpl2": "I can handle UX, UI, front end, back end, database management, devops, all the phases of the project except copy writing."
+        "kpl1": "I'm an independent full-stack website and web app developer from Tampere, Finland collaborating with clients and making things I’m interested in. I especially care about energy efficiency, accessibility, privacy and calm technology principles. I also have a background in audio technology and take on freelance work as a live sound technician, recording technician and media consultant.",
+        "kpl2": "I have experience building custom Wordpress sites and themes, as well as static sites like this one with Eleventy. I've also made web applications with NodeJS, for instance using MERN stack, and dabbled in some other languages and frameworks (like Java and Google's Apps Script).  I can handle UX, UI, front end, back end, database management, devops, all the phases of the project except copy writing.",
+        "triviatitle": "Fun facts about me",
+        "trivia": [
+            "I am the chairperson and technical consultant of Tapahtuma- ja Mediarenessanssi ry, a nonprofit organisation providing low-cost event and media services", 
+            "I’m active in local politics and community organising, and currently help run multiple regular discussion forums on politics and environmental protection",
+            "I've also lectured publicly on information security and environmental philosophy",
+            "I am the proud parent of two very stupid cats",
+            "I love trains and train travel and have taken several multi-day train journeys across Europe",
+            "I am a certified sheep shearer",
+            "I play the cello, piano and electric guitar"
+        ]
     }
 }

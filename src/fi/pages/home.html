@@ -8,21 +8,24 @@ permalink: /
 
 {% block content %}
 {% include "partials/site-head.html" %}
+
 <main tabindex="-1" id="main-content">
-    <div class="landing-screen wrapper">
-      <div class="landing-screen__left">
-      <article class="landing-screen__titles">
-        <h1>{{ metaTitle }}</h1>
-        <h2>{{ metaDescription }}</h2>
-        {{ content | safe }}
-        <p>suomi!</p>
-      </article>
-      </div>
-      <div class="landing-screen__right">
-      <img class="landing-screen__portrait" src="../../images/content/landing-portrait.png" />
-      </div>
+  <div class="landing-screen wrapper">
+    <div class="landing-screen__left">
+    <article class="landing-screen__titles">
+      <h1>{{ metaTitle }}</h1>
+      <h2>{{ metaDescription }}</h2>
+      {{ content | safe }}
+    </article>
     </div>
-    </main>
+    <div class="landing-screen__right">
+    <img class="landing-screen__portrait" src="../../images/content/landing-portrait.png" />
+    </div>
+  </div>
+</main>
+
+{% include "partials/about.html" %}
+
 {% include "partials/site-foot.html" %}
 
 {% endblock %}

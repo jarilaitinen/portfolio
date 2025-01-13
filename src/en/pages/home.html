@@ -15,7 +15,6 @@ permalink: /{{ locale }}/
         <h1>{{ metaTitle }}</h1>
         <h2>{{ metaDescription }}</h2>
         {{ content | safe }}
-        <p>english!</p>
       </article>
       </div>
       <div class="landing-screen__right">
@@ -23,6 +22,9 @@ permalink: /{{ locale }}/
       </div>
     </div>
     </main>
+    
+{% include "partials/about.html" %}
+
 {% include "partials/site-foot.html" %}
 
 {% endblock %}

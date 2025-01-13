@@ -12,7 +12,12 @@
     <div class="about__right">
 
         <article>
-            <p>More text on the right side of the page</p>
+            <h3>{{ about[locale].triviatitle }}</h3>
+            <ul>
+            {% for fact in about[locale].trivia %}
+                <li>{{ fact }}</li>
+            {% endfor %}
+            </ul>
         </article>
 
     </div>
