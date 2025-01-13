@@ -1,9 +1,10 @@
 ---
-permalink: /en/
-title: Jari Virkki
+permalink: /{{ locale }}/
 ---
 
 {% extends "layouts/base.html" %} 
+{% set metaTitle = site[locale].metaTitle %}
+{% set metaDescription = site[locale].metaDescription %}
 
 {% block content %}
 {% include "partials/site-head.html" %}
@@ -11,8 +12,8 @@ title: Jari Virkki
     <div class="landing-screen wrapper">
       <div class="landing-screen__left">
       <article class="landing-screen__titles">
-        <h1>Title</h1>
-        <h2>Description</h2>
+        <h1>{{ metaTitle }}</h1>
+        <h2>{{ metaDescription }}</h2>
         {{ content | safe }}
         <p>english!</p>
       </article>
