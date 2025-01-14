@@ -1,0 +1,35 @@
+{   "fi": {
+        "items": [
+            {
+            "text": "minusta",
+            "url": "#about"
+            },
+            {
+            "text": "työni",
+            "url": "/tyo/"
+            },
+            {
+            "text": "yhteystiedot",
+            "url": "#contact"
+            }
+        ]   
+    },
+    "en": {
+        "items": [
+            {
+            "text": "about me",
+            "url": "#about"
+            },
+            {
+            "text": "work",
+            "url": "/tyo/"
+            },
+            {
+            "text": "contact",
+            "url": "#contact"
+            }
+        ]  
+    }
+    
+}
+  

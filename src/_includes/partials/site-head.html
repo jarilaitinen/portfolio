@@ -2,12 +2,11 @@
 <header role="banner" class="site-head">
     <div class="wrapper">
         <div class="site-head__inner">
-            <p>header rendering</p>
             <a href="/" aria-label="{{ site.name }} - home" class="site-head__brand"></a>
           
-          <!-- <nav class="[ nav ] [ site-head__nav ] [ font-sans ]" aria-label="Primary">
+          <nav class="[ nav ] [ site-head__nav ] [ font-sans ]" aria-label="Primary">
             <ul class="nav__list">
-                {% for item in navigation.items %}
+                {% for item in navigation[locale].items %}
                 <li>
                   <a class="nav__link" href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
                     >{{ item.text }}</a
@@ -15,7 +14,7 @@
                 </li>
                 {% endfor %}
               </ul>              
-          </nav> -->
+          </nav>
           <span class="language-toggle">
             <a class="language-toggle__link" href="/" class="button">FI</a>
             /

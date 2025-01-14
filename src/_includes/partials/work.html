@@ -1,0 +1,25 @@
+<div id="work" class="work">
+    <div id="tech">
+        <h2>{{ work[locale].techtitle }}</h2>
+        <span>
+            <p>
+            {% set lastitem = work[locale].tech | last %}
+            {% for item in work[locale].tech %}
+                {% if item !== lastitem %}
+                    {{ item }} -
+                {% else %}
+                    {{ item }}
+                {% endif %} 
+            {% endfor %}
+            </p>
+        </span>
+    </div>
+    <div id="values">
+        <h2>{{ work[locale].valuestitle }}</h2>
+        <ul>
+            {% for item in work[locale].values %}
+            <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

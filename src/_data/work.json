@@ -1,0 +1,18 @@
+{
+    "fi": {
+        "techtitle": "työt ja teknologia",
+        "tech": ["wordpress","html","css","typescript","javascript","node.js","react","redux","mongodb","postgresql","bash", "linux", "osx","docker","a11y"],
+        "valuestitle": "arvot",
+        "values": ["calm technology","minimal energy use","privacy and anonymity are for everyone","libre software","making the functional beautiful","transparency is user friendly","helping my community"],
+        "mediatitle": "media- ja äänityöt",
+        "mediawork":["live sound tech","recording, editing and mixing","graphics for web and print"]
+    },
+    "en": {
+        "techtitle": "primary technologies",
+        "tech": ["wordpress","html","css","typescript","javascript","node.js","react","redux","mongodb","postgresql","bash", "linux", "osx","docker","a11y"],
+        "valuestitle": "values",
+        "values": ["calm technology","minimal energy use","privacy and anonymity are for everyone","libre software","making the functional beautiful","transparency is user friendly","helping my community"],
+        "mediatitle": "media and audio work",
+        "mediawork":["live sound tech","recording, editing and mixing","graphics for web and print"]
+    }
+}
