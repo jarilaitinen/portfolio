@@ -22,4 +22,14 @@
             {% endfor %}
         </ul>
     </div>
+    <div id="media">
+        <h2>{{ work[locale].mediatitle }}</h2>
+        <ul>
+            <p>I provide a variety of media and event services, including but not limited to:</p>
+            {% for item in work[locale].mediawork %}
+            <li>{{ item }}</li>
+            {% endfor %}
+            <p>Are you an activist or non-profit cultural organisation looking to rent equipment, book live sound, studio space or recording services? You might want to check out <a href="https://tapahtumajamedia.wordpress.com">Tamere Ry</a></p>
+        </ul>
+    </div>
 </div>
