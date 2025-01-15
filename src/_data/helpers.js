@@ -20,5 +20,25 @@ module.exports = {
       }
   
       return response;
+    },
+    /**
+     * Returns back a longer text string from front matter with an embedded link
+     * converted into a HTML link
+     *
+     * @param {String} fullString The entire text
+     * @param {String} linkText The piece of the text to display as a link
+     * @param {String} url The URL
+     * @returns {Object} The full text with formatted link
+     */
+    splitUrlFromText(fullString, linkText, url) {
+      const indexed = fullString.indexOf(linkText)
+
+      this.startText = fullString.slice(0,indexed);
+      this.linkInner = linkText;
+      this.linkURL = url;
+      this.endText = fullString.slice(indexed+linkText.length, fullString.length);
+
+      return this; 
     }
+    
   };

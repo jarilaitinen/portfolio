@@ -1,3 +1,5 @@
+{% import "macros/translation.html" as trans %}
+
 <div id="work" class="work">
     <div id="tech">
         <h2>{{ work[locale].techtitle }}</h2>
@@ -29,7 +31,12 @@
             {% for item in work[locale].mediawork %}
             <li>{{ item }}</li>
             {% endfor %}
-            <p>Are you an activist or non-profit cultural organisation looking to rent equipment, book live sound, studio space or recording services? You might want to check out <a href="https://tapahtumajamedia.wordpress.com">Tamere Ry</a></p>
+            <p class="box-block">{{ trans.lation(
+                'Are you an activist or non-profit cultural organisation looking to rent equipment, book live sound, studio space or recording services? You might want to check out', 
+                'Oletko aktivisti tai järjestön aktiivi, joka tarvitsee laitevuokrausta, ääniteknikkoa, studiotilaa tai äänityspalveluita? Katso', 
+                locale) }}
+                <a href="https://tapahtumajamedia.wordpress.com">Tamere Ry</a>
+            </p>
         </ul>
     </div>
 </div>

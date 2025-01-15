@@ -1,0 +1,7 @@
+{% macro lation(english, finnish, locale) %}
+{% if locale === 'en' %}
+{{ english }}
+{% elif locale === 'fi' %}
+{{ finnish }}
+{% endif %}
+{% endmacro %}

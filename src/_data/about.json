@@ -5,7 +5,7 @@
         "kpl2": "Minulla on kokemusta Wordpress-sivustojen ja -teemojen kehittämisestä, ja myös staattisten sivujen (kuten tämä). Rakennan nettisovelluksia pääaasiassa NodeJS:llä, usein TypeScriptilla ja MERN-stackilla, ja olen jonkin verran perehtynyt myös muihin kieliin ja frameworkeihin (kuten Java ja Googlen Apps Script). Olen monipuolisesti ottanut vastaan UX-, UI-, front end-, back end-, tietokanta- ja devops-tehtäviä, pystyn vaikka mihin paitsi hyvän mainostekstin kirjoittamiseen.",
         "triviatitle": "Lisätietoa minusta",
         "trivia": [
-            "Olen Tapahtuma- ja Mediarenessanssi ry:n puheenjohtaja ja tekninen konsultti - tarjoan tapahtuma- ja mediapalveluita ", 
+            "Olen Tapahtuma- ja Mediarenessanssi ry:n puheenjohtaja ja tekninen konsultti - tarjoan tapahtuma- ja mediapalveluita aktivisteille ja kulttuuritoimijoille", 
             "Olen aktiivinen politiikassa ja ympäristöaktivismissa, ja autan pyörittämään luontoaiheista keskustelufoorumia Tampereella",
             "Olen myös pitänyt luentoja netti- ja tietoturvallisuudesta ja ympäristöfilosofiasta",
             "Olen kahden erittäin tyhmän kissan ylpeä isähahmo",
@@ -13,6 +13,21 @@
             "Olen sertifioitu lampaankeritsijä",
             "Soitan selloa, pianoa ja sähkökitaraa",
             "Arvostan ranskalaisia viivoja"
+        ],
+        "triviatest": [
+            {
+                "fact": "some text about me that contains a link",
+                "linktext": "a link",
+                "url": "/cats/"
+            },
+            {
+                "fact": "here's a fact that doesn't contain a link"
+            },
+            {
+                "fact": "and here's one with the link in the middle of the sentence",
+                "linktext": "the link",
+                "url": "/dogs/"
+            }
         ]
     },
     "en": {
@@ -22,13 +37,21 @@
         "triviatitle": "Fun facts about me",
         "trivia": [
             "I am the chairperson and technical consultant of Tapahtuma- ja Mediarenessanssi ry, a nonprofit organisation providing low-cost event and media services", 
-            "I’m active in local politics and community organising, and currently help run multiple regular discussion forums on politics and environmental protection",
+            "I’m active in local politics and community organising, and currently help run regular discussion forums on politics and environmental protection",
             "I've also lectured publicly on information security and environmental philosophy",
             "I am the proud parent of two very stupid cats",
             "I love trains and train travel and have taken several multi-day train journeys across Europe",
             "I am a certified sheep shearer",
             "I play the cello, piano and electric guitar",
             "I enjoy a bulleted list"
+        ],
+        "triviatest": [
+            {
+                "starttext": "I am the chairperson and technical consultant of",
+                "linktext": "Tapahtuma- ja Mediarenessanssi ry,",
+                "endtext": "a nonprofit organisation providing low-cost event and media services",
+                "url": "https://tapahtumajamedia.wordpress.com/"
+            }
         ]
     }
 }

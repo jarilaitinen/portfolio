@@ -20,5 +20,22 @@
             </ul>
         </article>
 
+        <article>
+            <h3>A test</h3>
+            <ul>
+            {% for fact in about[locale].triviatest %}
+                {% if fact.url %}
+                    <li>
+                        {{ fact.starttext }}
+                        <a href="{{ fact.url }}">{{ fact.linktext }}</a>
+                        {{ fact.endtext }}
+                    </li>
+                {% else %}
+                    <li>{{ fact.fact }}</li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </article>
+
     </div>
 </div>
