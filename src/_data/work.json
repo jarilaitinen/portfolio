@@ -1,18 +1,20 @@
 {
     "fi": {
-        "techtitle": "työt ja teknologia",
+        "techtitle": "Työt ja teknologia",
         "tech": ["wordpress","html","css","typescript","javascript","node.js","react","redux","mongodb","postgresql","bash", "linux", "osx","docker","a11y"],
-        "valuestitle": "arvot",
+        "valuestitle": "Arvot",
         "values": ["calm technology","minimal energy use","privacy and anonymity are for everyone","libre software","making the functional beautiful","transparency is user friendly","helping my community"],
-        "mediatitle": "media- ja äänityöt",
-        "mediawork":["live sound tech","recording, editing and mixing","graphics for web and print"]
+        "mediatitle": "Media- ja äänityöt",
+        "mediatagline": "Tarjoan moninaisia ääni- ja mediapalveluita, muun muuassa:",
+        "mediawork":["live ääniteknikko","äänitys, editointi ja miksaus","grafiikkatyö nettiin ja julkaisuun"]
     },
     "en": {
-        "techtitle": "primary technologies",
+        "techtitle": "Primary technologies",
         "tech": ["wordpress","html","css","typescript","javascript","node.js","react","redux","mongodb","postgresql","bash", "linux", "osx","docker","a11y"],
-        "valuestitle": "values",
+        "valuestitle": "Values",
         "values": ["calm technology","minimal energy use","privacy and anonymity are for everyone","libre software","making the functional beautiful","transparency is user friendly","helping my community"],
-        "mediatitle": "media and audio work",
+        "mediatitle": "Media and audio work",
+        "mediatagline": "I provide a variety of media and event services, including but not limited to:",
         "mediawork":["live sound tech","recording, editing and mixing","graphics for web and print"]
     }
 }

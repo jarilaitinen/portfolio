@@ -2,11 +2,11 @@
         "items": [
             {
             "text": "minusta",
-            "url": "#about"
+            "url": "/#about"
             },
             {
             "text": "työni",
-            "url": "/tyo/"
+            "url": "/fi/portfolio/"
             },
             {
             "text": "yhteystiedot",
@@ -18,11 +18,11 @@
         "items": [
             {
             "text": "about me",
-            "url": "#about"
+            "url": "/en/#about"
             },
             {
             "text": "work",
-            "url": "/tyo/"
+            "url": "/en/portfolio/"
             },
             {
             "text": "contact",

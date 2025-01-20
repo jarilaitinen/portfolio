@@ -1,0 +1,38 @@
+{
+    "fi": {
+        "items": [
+            {
+                "title": "Projekti",
+                "description": "Tämä on yksi projektini. Tein tämän projektin jollekulle johonkin tarkoitukseen. Siinä on ominaisuuksia, kuten foo ja bar.",
+                "linktext": "Katso lähde Githubista",
+                "link": "https://github.com/jarilaitinen/projectname",
+                "image": "../../images/content/democlub-spr25.png",
+                "tech": ["wordpress","html","css","php","javascript","sass"]
+            },
+            {
+                "title": "Toinen projekti",
+                "description": "Tämä on toinen projektini. Siinä ei ole lähdekoodia, vain kuva ja tekstiä.",
+                "image": "../../images/content/queerclub-spr25.png",
+                "tech": ["canva"]
+            }
+        ]
+    },
+    "en": {
+        "items": [
+            {
+                "title": "Project name",
+                "description": "This is a project I made. It was done for some purpose and some client, and it has some features like foo and bar.",
+                "linktext": "See source on Github",
+                "link": "https://github.com/jarilaitinen/projectname",
+                "image": "../../images/content/democlub-spr25.png",
+                "tech": ["wordpress","html","css","php","javascript","sass"]
+            },
+            {
+                "title": "Another project",
+                "description": "This is another project. It doesn't have source code, only an image and some text",
+                "image": "../../images/content/queerclub-spr25.png",
+                "tech": ["canva"]
+            }
+        ]
+    }
+}

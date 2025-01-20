@@ -15,15 +15,6 @@
             <h3>{{ about[locale].triviatitle }}</h3>
             <ul>
             {% for fact in about[locale].trivia %}
-                <li>{{ fact }}</li>
-            {% endfor %}
-            </ul>
-        </article>
-
-        <article>
-            <h3>A test</h3>
-            <ul>
-            {% for fact in about[locale].triviatest %}
                 {% if fact.url %}
                     <li>
                         {{ fact.starttext }}
@@ -31,7 +22,7 @@
                         {{ fact.endtext }}
                     </li>
                 {% else %}
-                    <li>{{ fact.fact }}</li>
+                    <li>{{ fact }}</li>
                 {% endif %}
             {% endfor %}
             </ul>

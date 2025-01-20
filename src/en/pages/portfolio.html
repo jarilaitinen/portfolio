@@ -1,0 +1,35 @@
+---
+permalink: /{{ locale }}/portfolio/
+---
+
+{% extends "layouts/base.html" %} 
+
+{% block content %}
+
+{% include "partials/site-head.html" %}
+
+<main tabindex="-1" id="main-content">
+<div>
+    <h1>Portfolio</h1>
+</div>
+<div>
+    {% for item in portfolio[locale].items %}
+    <img src="{{ item.image }}" height="400px">
+    <h3>{{ item.title }}</h3>
+    <p>{{ item.description }} 
+        {% if item.link %}
+        <a href="{{ item.link }}">{{ item.linktext }}</a>
+        {% endif %}
+    </p>
+    <ul><i>
+        {% for tech in item.tech %}
+            <li>{{ tech }}</li>
+        {% endfor%}
+    </ul></i>
+    {% endfor %}
+</div>
+</main>
+
+{% include "partials/site-foot.html" %}
+
+{% endblock %}
