@@ -1,0 +1,16 @@
+{% macro link(url, year, title, image, summary) %}
+<li>
+    <a href="{{ url }}">
+        <span>
+            {{ title }}
+        </span>
+    </a>
+    <div>
+        <time datetime="{{ year }}" class="h4 color-text">{{ year }}</time>
+        <p>{{ summary }}</p>
+    </div>
+    <picture>
+        <img src="{{ image }}" height="300px" alt="" loading="lazy">
+    </picture>
+</li>
+{% endmacro %}

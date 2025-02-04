@@ -1,5 +1,21 @@
 module.exports = config => {
 
+    const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
+    
+    // EN Work - Returns portfolio items, sorted by display order
+    config.addCollection("work_en", (collection) => {
+      return sortByDisplayOrder(
+          collection.getFilteredByGlob("./src/en/work/*.md")
+      );
+    });
+
+    // FI Work - Returns portfolio items, sorted by display order
+    config.addCollection("work_fi", (collection) => {
+      return sortByDisplayOrder(
+          collection.getFilteredByGlob("./src/fi/work/*.md")
+      );
+    });
+
     // Set directories to pass through to the dist folder
     config.addPassthroughCopy('./src/images/');
   

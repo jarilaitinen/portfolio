@@ -4,6 +4,7 @@ title: Portfolio
 ---
 
 {% extends "layouts/base.html" %} 
+{% import "macros/portfolio-item.html" as portfolioItem %}
 
 {% block content %}
 
@@ -13,22 +14,11 @@ title: Portfolio
 <div>
     <h1>Portfolio</h1>
 </div>
-<div>
+<article>
     {% for item in portfolio[locale].items %}
-    <img src="{{ item.image }}" height="400px">
-    <h3>{{ item.title }}</h3>
-    <p>{{ item.description }} 
-        {% if item.link %}
-        <a href="{{ item.link }}">{{ item.linktext }}</a>
-        {% endif %}
-    </p>
-    <ul><i>
-        {% for tech in item.tech %}
-            <li>{{ tech }}</li>
-        {% endfor%}
-    </ul></i>
+    {{ portfolioItem.link(item.url, item.year, item.title, item.image, item.summary) }}
     {% endfor %}
-</div>
+</article>
 </main>
 
 {% include "partials/site-foot.html" %}

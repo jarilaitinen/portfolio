@@ -1,0 +1,43 @@
+{% extends "layouts/base.html" %}
+
+{% include "partials/site-head.html" %}
+
+{% block content %}
+<section>
+    <article>
+        <header>
+            <h1>{{ title }}</h1>
+            {% if summary %}
+                <p>{{ summary }}</p>
+            {% endif %}
+
+            {% if link %}
+                <div>
+                    <a href="{{ link|safe }}" aria-describedby="{{ title }}">{{ linktext }}</a>
+                </div>
+            {% endif %}
+
+            {% if image %}
+                <img src="{{ image }}">
+            {% endif %}
+        </header>
+
+        {% if tech %}
+            <details class="tech-stack" open>
+                <summary class="h5">Tech stack</summary>
+                <ul>
+                    {% for item in tech %}
+                        <li>{{ item|safe }}</li>
+                    {% endfor %}
+                </ul>
+            </details>
+        {% endif %}
+
+        {{content|safe}}
+
+    </article>
+</section>
+
+{% endblock %}
+
+{% include "partials/site-foot.html" %}

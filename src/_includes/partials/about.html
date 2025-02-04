@@ -1,17 +1,17 @@
-<div id="about" class="about">
-    <div class="about__left">
-        <div class="about__titleball">
-            <h2 class="about__title">{{ about[locale].greeting }}</h2>
+<article id="about" class="about">
+    <section class="about__left">
+        <div>
+            <h2>{{ about[locale].greeting }}</h2>
         </div>
-        <article>
+        <div>
             <p>{{ about[locale].kpl1 }}</p>
             <p>{{ about[locale].kpl2 }}</p>
-        </article>
+        </div>
 
-    </div>
-    <div class="about__right">
+    </section>
+    <section class="about__right">
 
-        <article>
+        <div>
             <h3>{{ about[locale].triviatitle }}</h3>
             <ul>
             {% for fact in about[locale].trivia %}
@@ -26,7 +26,7 @@
                 {% endif %}
             {% endfor %}
             </ul>
-        </article>
+        </div>
 
-    </div>
-</div>
+    </section>
+</article>
