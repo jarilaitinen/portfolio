@@ -1,5 +1,6 @@
 ---
 permalink: /{{ locale }}/portfolio/
+title: Portfolio
 ---
 
 {% extends "layouts/base.html" %} 
@@ -13,7 +14,20 @@ permalink: /{{ locale }}/portfolio/
     <h1>Portfolio</h1>
 </div>
 <div>
-    <p>Here's a carousel of some of my projects</p>
+    {% for item in portfolio[locale].items %}
+    <img src="{{ item.image }}" height="400px">
+    <h3>{{ item.title }}</h3>
+    <p>{{ item.description }} 
+        {% if item.link %}
+        <a href="{{ item.link }}">{{ item.linktext }}</a>
+        {% endif %}
+    </p>
+    <ul><i>
+        {% for tech in item.tech %}
+            <li>{{ tech }}</li>
+        {% endfor%}
+    </ul></i>
+    {% endfor %}
 </div>
 </main>
 

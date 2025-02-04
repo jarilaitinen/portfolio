@@ -1,6 +1,10 @@
 {   "fi": {
         "items": [
             {
+            "text": "koti",
+            "url": "/"    
+            },
+            {
             "text": "minusta",
             "url": "/#about"
             },
@@ -16,6 +20,10 @@
     },
     "en": {
         "items": [
+            {
+                "text": "home",
+                "url": "/"    
+            },
             {
             "text": "about me",
             "url": "/en/#about"

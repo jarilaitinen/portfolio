@@ -10,13 +10,18 @@
                 "linktext": "Tapahtuma- ja Mediarenessanssi ry:n",
                 "endtext": "puheenjohtaja ja tekninen konsultti - tarjoan tapahtuma- ja mediapalveluita aktivisteille ja kulttuuritoimijoille",
                 "url": "https://tapahtumajamedia.wordpress.com/"
-            }, 
-            "Olen aktiivinen politiikassa ja ympäristöaktivismissa, ja autan pyörittämään luontoaiheista keskustelufoorumia Tampereella",
+            },
+            {
+                "starttext": "Olen aktiivinen politiikassa ja ympäristöaktivismissa, ja autan pyörittämään",
+                "linktext": "luontoaiheista keskustelufoorumia",
+                "endtext": "Tampereella",
+                "url": "https://www.instagram.com/luontoklubi.tre/"
+            },
             "Olen myös pitänyt luentoja netti- ja tietoturvallisuudesta ja ympäristöfilosofiasta",
             "Olen kahden erittäin tyhmän kissan ylpeä isähahmo",
             "Tykkään junista ja olen käynyt usealla monen päivän junareissulla halki Eurooppaa",
             "Olen sertifioitu lampaankeritsijä",
-            "Soitan selloa, pianoa ja sähkökitaraa",
+            "Olen suuri raskaan musiikin ystävä ja soitan selloa, pianoa ja sähkökitaraa",
             "Arvostan ranskalaisia viivoja"
         ]
     },
@@ -32,12 +37,18 @@
                 "endtext": "a nonprofit organisation providing low-cost event and media services",
                 "url": "https://tapahtumajamedia.wordpress.com/"
             },
+            {
+                "starttext": "Olen aktiivinen politiikassa ja ympäristöaktivismissa, ja autan pyörittämään",
+                "linktext": "luontoaiheista keskustelufoorumia",
+                "endtext": "Tampereella",
+                "url": "https://www.instagram.com/luontoklubi.tre/"
+            },
             "I’m active in local politics and community organising, and currently help run regular discussion forums on politics and environmental protection",
             "I've also lectured publicly on information security and environmental philosophy",
-            "I am the proud parent of two very stupid cats",
+            "I am the sproud parent of two very stupid cats",
             "I love trains and train travel and have taken several multi-day train journeys across Europe",
             "I am a certified sheep shearer",
-            "I play the cello, piano and electric guitar",
+            "I'm an inveterate heavy metal fan and play the cello, piano and electric guitar",
             "I enjoy a bulleted list"
         ]
     }

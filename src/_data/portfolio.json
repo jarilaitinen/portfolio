@@ -2,18 +2,18 @@
     "fi": {
         "items": [
             {
-                "title": "Projekti",
-                "description": "Tämä on yksi projektini. Tein tämän projektin jollekulle johonkin tarkoitukseen. Siinä on ominaisuuksia, kuten foo ja bar.",
-                "linktext": "Katso lähde Githubista",
-                "link": "https://github.com/jarilaitinen/projectname",
-                "image": "../../images/content/democlub-spr25.png",
+                "title": "Tampereen Vasemmisto",
+                "description": "Siisti ja puolueen brändiin sopiva sujuvasti skaalautuva Wordpress-teema. Suunnittelin ja rakensin järjestön pyynnöstä vuonna 2023.",
+                "linktext": "Katso livenä",
+                "link": "https://tampereenvasemmisto.fi",
+                "image": "../../images/content/portfolio-trevas.png",
                 "tech": ["wordpress","html","css","php","javascript","sass"]
             },
             {
-                "title": "Toinen projekti",
-                "description": "Tämä on toinen projektini. Siinä ei ole lähdekoodia, vain kuva ja tekstiä.",
+                "title": "Jenni Suutari",
+                "description": "Kampanjasivusto SYL:n puheenjohtajaehdokkaalle. Suunnittelin ja rakensin staattisena 11ty:llä vuonna 2024.",
                 "image": "../../images/content/queerclub-spr25.png",
-                "tech": ["canva"]
+                "tech": ["11ty","html","nunjucks","css","sass","javascript","node.js"]
             }
         ]
     },
